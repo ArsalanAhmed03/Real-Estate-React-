@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/footer-styles.css'
+import City10 from '../images/City10.png';
 
 export default function Footer()  {
   return (
@@ -10,7 +11,7 @@ export default function Footer()  {
         <a href="#"> Privacy Policy |</a>
         <a href="#"> Disclaimer</a>
       </div>
-      <img src="../images/City10.png" width="200" />
+      <img src={City10} width="200" />
     </footer>
   );
 };
